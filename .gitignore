@@ -1,3 +1,4 @@
 _backup/
+deploy.ps1
 .DS_Store
 *.log
