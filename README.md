@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Giải pháp phân tích điểm số GPA và phân phối tín chỉ toàn diện dành cho sinh viên Đại học FPT.</strong>
+  <strong>Giải pháp phân tích điểm số GPA và thống kê tín chỉ toàn diện dành cho sinh viên Đại học FPT.</strong>
 </p>
 
 <p align="center">
@@ -17,64 +17,56 @@
 ---
 
 ## 🌟 Giới thiệu tổng quan
-**GPA FPT University** (tên cũ: `FAP GPA Analyzer Pro`) là một tiện ích mở rộng (Chrome Extension) mạnh mẽ, an toàn và trực quan được thiết kế dành riêng cho sinh viên Đại học FPT. 
+**GPA FPT University** là một tiện ích mở rộng (Chrome Extension) trực quan và an toàn được thiết kế riêng cho sinh viên Đại học FPT. 
 
-Tiện ích này giúp tự động hóa quá trình cào dữ liệu điểm từ trang bảng điểm cá nhân trên hệ thống **FAP (FPT Academic Portal)**, tự động lọc và tính toán điểm trung bình tích lũy (GPA) theo thang điểm 10 và các chỉ số học thuật chi tiết qua từng học kỳ mà không cần tính toán thủ công.
+Tiện ích này tự động hóa việc tính toán điểm trung bình tích lũy (GPA) song song trên cả hai hệ điểm **Thang điểm 10** và **Thang điểm 4**, đồng thời cung cấp bảng số liệu học tập chi tiết qua từng kỳ ngay trên giao diện FAP (FPT Academic Portal) mà không cần nhập liệu thủ công.
 
 ---
 
 ## ✨ Các tính năng nổi bật
-* **Tự động trích xuất điểm số:** Tự động phát hiện và cào chính xác bảng điểm trên hệ thống FAP (`fap.fpt.edu.vn`).
-* **Lọc dữ liệu học thuật thông minh:**
-  * Tự động loại bỏ các môn học chuẩn bị Tiếng Anh (`TERM <= 0`).
-  * Loại bỏ các môn học chưa có điểm hoặc trạng thái đang học (`Studying`), học lại (`Failed`), hoặc miễn giảm (`Exempt`).
-  * Chỉ tính toán dựa trên các môn đã đạt (`Passed`) và có tín chỉ hợp lệ để phản ánh đúng điểm số thực tế.
-* **Bảng điều khiển Analytics trực quan:**
-  * Hiển thị điểm GPA trung bình tích lũy của toàn bộ các kỳ học.
-  * Phân tích GPA và tổng số tín chỉ tích lũy chi tiết của từng học kỳ.
-  * Giao diện thiết kế theo phong cách tối giản, hiện đại và hỗ trợ trải nghiệm người dùng tối đa.
-* **Bảo mật tuyệt đối:** Tiện ích hoạt động hoàn toàn cục bộ trên trình duyệt của bạn. Không lưu trữ thông tin đăng nhập, không gửi dữ liệu điểm số ra bất kỳ máy chủ bên thứ ba nào.
+* **Đồng bộ hóa hệ điểm song song:** Tự động tính toán và hiển thị điểm GPA chính xác theo cả **Thang điểm 10** và **Thang điểm 4**.
+* **Tự động phân tích bảng điểm:** Tự động nhận diện bảng điểm cá nhân trên trang FAP, loại bỏ các môn điều kiện (thể chất, quốc phòng, tiếng Anh chuẩn bị) để tính toán đúng điểm tích lũy thực tế.
+* **Gợi ý môn cần cải thiện:** Đưa ra đề xuất chi tiết các môn học bạn nên học cải thiện điểm số để đạt được hiệu quả tăng điểm GPA tích lũy cao nhất với mức nỗ lực tối ưu.
+* **Tính toán mục tiêu học tập thông minh:** Tự động tính toán và hiển thị chính xác mức điểm GPA cần đạt thêm để nâng học lực hiện tại lên các mức **Khá, Giỏi, hoặc Xuất sắc**.
+* **Bảng số liệu trực quan:** Thống kê chi tiết số lượng môn học đã đạt, tổng số tín chỉ tích lũy toàn khóa và phân tích học tập theo từng học kỳ.
+* **Bảo mật tuyệt đối:** Hoạt động hoàn toàn trên trình duyệt của người dùng, cam kết không thu thập dữ liệu học tập hay thông tin cá nhân.
 
 ---
 
 ## 🛠️ Hướng dẫn cài đặt chi tiết (Developer Mode)
 
-Vì đây là tiện ích bảo mật nội bộ và tối ưu hiệu năng, bạn có thể dễ dàng cài đặt trực tiếp vào trình duyệt của mình bằng chế độ nhà phát triển (Developer Mode):
+Bạn có thể dễ dàng cài đặt trực tiếp tiện ích này vào trình duyệt của mình:
 
 ### Bước 1: Tải mã nguồn về máy
 1. Nhấn vào nút xanh **Code** ở góc trên bên phải của trang GitHub này.
 2. Chọn **Download ZIP**.
-3. Giải nén tệp tin vừa tải về vào một thư mục cố định trên máy tính của bạn (ví dụ: `C:\GPA_FPTuniversity`).
+3. Giải nén tệp tin vừa tải về vào một thư mục cố định trên máy tính (ví dụ: `C:\GPA_FPTuniversity`).
 
 ### Bước 2: Kích hoạt Developer Mode trên trình duyệt
-1. Mở trình duyệt Chrome (hoặc bất kỳ trình duyệt nhân Chromium nào như Microsoft Edge, Cốc Cốc, Brave).
-2. Truy cập vào trang quản lý tiện ích bằng cách sao chép và dán đường dẫn sau vào thanh địa chỉ:
+1. Mở trình duyệt Chrome (hoặc trình duyệt nhân Chromium như Edge, Cốc Cốc, Brave).
+2. Truy cập trang quản lý tiện ích:
    * **Chrome:** `chrome://extensions/`
    * **Edge:** `edge://extensions/`
-3. Kích hoạt tính năng **Chế độ dành cho nhà phát triển (Developer mode)** ở góc trên bên phải màn hình.
+3. Bật **Chế độ dành cho nhà phát triển (Developer mode)** ở góc trên bên phải.
 
 ### Bước 3: Nạp tiện ích vào trình duyệt
 1. Nhấp vào nút **Tải tiện ích đã giải nén (Load unpacked)** ở góc trên bên trái.
-2. Chọn đúng thư mục chứa dự án mà bạn đã giải nén ở **Bước 1** (thư mục chứa tệp `manifest.json`).
-3. Tiện ích **GPA FPT University** sẽ ngay lập tức xuất hiện trong danh sách tiện ích của bạn!
+2. Chọn thư mục chứa dự án mà bạn đã giải nén ở **Bước 1** (thư mục có chứa tệp `manifest.json`).
+3. Tiện ích sẽ ngay lập tức sẵn sàng để sử dụng!
 
 ---
 
 ## 📖 Hướng dẫn sử dụng
-1. Đăng nhập vào trang hệ thống **FAP** của Đại học FPT (`fap.fpt.edu.vn`).
-2. Điều hướng đến trang **Student Transcript** (Xem bảng điểm cá nhân) của bạn.
-3. Nhấp vào biểu tượng **Mảnh ghép tiện ích (Extensions)** ở góc trên bên phải trình duyệt và ghim tiện ích **GPA FPT University** lên thanh công cụ.
-4. Nhấp vào biểu tượng tiện ích. Tiện ích sẽ tự động nhận diện bảng điểm, tính toán và hiển thị bảng phân tích GPA thông minh ngay tức thì trên màn hình popup!
+1. Đăng nhập vào trang **FAP** của Đại học FPT (`fap.fpt.edu.vn`).
+2. Mở trang **Student Transcript** (Xem bảng điểm cá nhân) của bạn.
+3. Nhấp vào biểu tượng tiện ích **GPA FPT University** đã ghim trên thanh công cụ của trình duyệt. Tiện ích sẽ hiển thị đầy đủ bảng phân tích điểm và các công cụ gợi ý thông minh ngay lập tức!
 
 ---
 
-## 🛡️ Chính sách bảo mật & Bản quyền (License & Security)
+## 🛡️ Chính sách bảo quyền (License)
 
-### Bảo mật mã nguồn
-Mã nguồn này được thiết kế và bảo vệ nghiêm ngặt:
 * **Tác quyền:** Bản quyền thuộc sở hữu độc quyền của **MinhHK68**.
-* **Phân phối:** Nghiêm cấm mọi hành vi sao chép, phân phối, sửa đổi hoặc đăng tải lại mã nguồn này lên các cửa hàng tiện ích (Chrome Web Store) hoặc các nền tảng chia sẻ mã nguồn công khai khác mà không có sự đồng ý bằng văn bản của tác giả.
-* **Mã hóa bảo vệ (Code Obfuscation):** Nhằm ngăn chặn các hành vi sao chép trái phép và dịch ngược mã nguồn (reverse-engineering), toàn bộ tệp JavaScript thực thi của tiện ích đã được mã hóa bảo mật tối đa trước khi đưa vào môi trường phân phối.
+* **Phân phối:** Nghiêm cấm mọi hành vi sao chép, phân phối, sửa đổi hoặc đăng tải lại mã nguồn này lên các cửa hàng tiện ích (Chrome Web Store) hoặc các nền tảng chia sẻ mã nguồn công khai khác khi chưa có sự đồng ý bằng văn bản từ tác giả.
 
 ---
 *Phát triển và duy trì bởi [MinhHK68](https://github.com/MinhHK68).*
