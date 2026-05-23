@@ -33,23 +33,34 @@ Tiện ích này tự động hóa việc tính toán điểm trung bình tích 
 
 ---
 
-## 🛠️ Hướng dẫn cài đặt chi tiết (Developer Mode)
+## 🛠️ Hướng dẫn cài đặt tiện ích
 
-Bạn có thể dễ dàng cài đặt trực tiếp tiện ích này vào trình duyệt của mình:
+Bạn có thể lựa chọn một trong hai phương thức cài đặt dưới đây:
 
-### Bước 1: Tải mã nguồn về máy
+### Cách 1: Cài đặt trực tiếp từ Cửa hàng Edge Add-ons (Khuyên dùng - Nhanh nhất)
+1. Mở trình duyệt Microsoft Edge.
+2. Truy cập vào trang cửa hàng của tiện ích (sau khi được Microsoft phê duyệt): **[GPA FPT University trên Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/developer/home)**.
+3. Nhấp vào nút **Get (Nhận)** để cài đặt tự động. Tiện ích sẽ tự động tích hợp vào trình duyệt của bạn một cách nhanh chóng và an toàn.
+
+---
+
+### Cách 2: Cài đặt thủ công bằng Chế độ nhà phát triển (Developer Mode)
+
+Nếu bạn muốn chạy thử nghiệm trực tiếp mã nguồn cục bộ dưới máy:
+
+#### Bước 1: Tải mã nguồn về máy
 1. Nhấn vào nút xanh **Code** ở góc trên bên phải của trang GitHub này.
 2. Chọn **Download ZIP**.
 3. Giải nén tệp tin vừa tải về vào một thư mục cố định trên máy tính (ví dụ: `C:\GPA_FPTuniversity`).
 
-### Bước 2: Kích hoạt Developer Mode trên trình duyệt
+#### Bước 2: Kích hoạt Developer Mode trên trình duyệt
 1. Mở trình duyệt Chrome (hoặc trình duyệt nhân Chromium như Edge, Cốc Cốc, Brave).
 2. Truy cập trang quản lý tiện ích:
    * **Chrome:** `chrome://extensions/`
    * **Edge:** `edge://extensions/`
 3. Bật **Chế độ dành cho nhà phát triển (Developer mode)** ở góc trên bên phải.
 
-### Bước 3: Nạp tiện ích vào trình duyệt
+#### Bước 3: Nạp tiện ích vào trình duyệt
 1. Nhấp vào nút **Tải tiện ích đã giải nén (Load unpacked)** ở góc trên bên trái.
 2. Chọn thư mục chứa dự án mà bạn đã giải nén ở **Bước 1** (thư mục có chứa tệp `manifest.json`).
 3. Tiện ích sẽ ngay lập tức sẵn sàng để sử dụng!
