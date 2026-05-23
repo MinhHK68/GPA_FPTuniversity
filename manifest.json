@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "FAP GPA Analyzer Pro",
+  "version": "2.1.0",
+  "description": "GPA analytics dashboard for FPT University StudentTranscript page",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["https://fap.fpt.edu.vn/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16":  "icons/icon16.png",
+      "48":  "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://fap.fpt.edu.vn/Grade/StudentTranscript.aspx*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
