@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "FAP GPA Analyzer Pro",
+  "name": "GPA FPT University",
   "version": "2.1.0",
   "description": "GPA analytics dashboard for FPT University StudentTranscript page",
   "permissions": ["activeTab", "storage", "scripting"],
