@@ -1,1 +1,212 @@
-function a0_0x30a9(_0x2e1aae,_0x208a38){_0x2e1aae=_0x2e1aae-(0x1*-0x12a6+0xefb+0x2*0x2ab);const _0x4ac8ba=a0_0x44d4();let _0x229722=_0x4ac8ba[_0x2e1aae];if(a0_0x30a9['\x6d\x4a\x67\x75\x6e\x56']===undefined){var _0x45e430=function(_0x59bc76){const _0x49f70a='\x61\x62\x63\x64\x65\x66\x67\x68\x69\x6a\x6b\x6c\x6d\x6e\x6f\x70\x71\x72\x73\x74\x75\x76\x77\x78\x79\x7a\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4a\x4b\x4c\x4d\x4e\x4f\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5a\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x2b\x2f\x3d';let _0x3b6386='',_0x171d13='';for(let _0x277b8c=-0x9*0x3d0+-0x1*0x21c1+0x4411,_0xbc268e,_0x4b598a,_0x2a8eb8=0x59+0x32f+-0x388;_0x4b598a=_0x59bc76['\x63\x68\x61\x72\x41\x74'](_0x2a8eb8++);~_0x4b598a&&(_0xbc268e=_0x277b8c%(0x109b+0xc29*-0x1+0x2*-0x237)?_0xbc268e*(0x215b+0x6e4+-0x27ff)+_0x4b598a:_0x4b598a,_0x277b8c++%(-0xc*0x94+0x1b08+-0x1414))?_0x3b6386+=String['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65'](0x3*0x691+0x1ac*0x15+-0x6ba*0x8&_0xbc268e>>(-(0x214a+0x6bf+-0x2807)*_0x277b8c&0x5b4+0x47+-0x5f5)):0x3*-0x64b+0x3*-0x235+0x1980){_0x4b598a=_0x49f70a['\x69\x6e\x64\x65\x78\x4f\x66'](_0x4b598a);}for(let _0x8afa97=0x1bde+0x246+-0x1e24,_0x48c659=_0x3b6386['\x6c\x65\x6e\x67\x74\x68'];_0x8afa97<_0x48c659;_0x8afa97++){_0x171d13+='\x25'+('\x30\x30'+_0x3b6386['\x63\x68\x61\x72\x43\x6f\x64\x65\x41\x74'](_0x8afa97)['\x74\x6f\x53\x74\x72\x69\x6e\x67'](0x23f7+0x2ce+-0x26b5))['\x73\x6c\x69\x63\x65'](-(0x1*-0x1eb3+-0x26c3+0x4e*0xe4));}return decodeURIComponent(_0x171d13);};a0_0x30a9['\x69\x4b\x6f\x4e\x79\x43']=_0x45e430,a0_0x30a9['\x6c\x44\x72\x7a\x4f\x79']={},a0_0x30a9['\x6d\x4a\x67\x75\x6e\x56']=!![];}const _0xf6f871=_0x4ac8ba[0x19*-0x47+0xc84+-0x595*0x1],_0x23961d=_0x2e1aae+_0xf6f871,_0x27e01b=a0_0x30a9['\x6c\x44\x72\x7a\x4f\x79'][_0x23961d];return!_0x27e01b?(_0x229722=a0_0x30a9['\x69\x4b\x6f\x4e\x79\x43'](_0x229722),a0_0x30a9['\x6c\x44\x72\x7a\x4f\x79'][_0x23961d]=_0x229722):_0x229722=_0x27e01b,_0x229722;}(function(_0x514a1c,_0x3e675c){const _0x4980b2=a0_0x30a9,_0x475086=_0x514a1c();while(!![]){try{const _0xfc0ee7=parseInt(_0x4980b2(0x1dc))/(0x1d5d*-0x1+-0x154d+0x32ab)*(-parseInt(_0x4980b2(0x1bb))/(-0x1*-0x1df9+0x1cb2+-0x3aa9))+parseInt(_0x4980b2(0x1ad))/(-0x1fdb+0x17bf+0x81f)+-parseInt(_0x4980b2(0x1d8))/(0xbae+0x12dc+-0x1e86)+parseInt(_0x4980b2(0x1fb))/(-0x1ccc+0x21fb+-0x52a)+parseInt(_0x4980b2(0x1db))/(-0x1d*0x10b+0x67f*-0x4+0x1*0x3841)+parseInt(_0x4980b2(0x1d5))/(-0x1e06+0x1bcd+-0x8*-0x48)*(-parseInt(_0x4980b2(0x1e6))/(0x2da+0x138c+0x165e*-0x1))+parseInt(_0x4980b2(0x1b2))/(0x63d*-0x2+-0x5*-0x8+0xc5b);if(_0xfc0ee7===_0x3e675c)break;else _0x475086['push'](_0x475086['shift']());}catch(_0x5167a7){_0x475086['push'](_0x475086['shift']());}}}(a0_0x44d4,0x42c48+0x36c32+-0x1*0x4f26b),(function(){'use strict';const _0x10a1c9=a0_0x30a9,_0x48ffed={'\x72\x64\x46\x59\x56':function(_0x46c6c6,_0x2b3c72){return _0x46c6c6(_0x2b3c72);},'\x6e\x68\x44\x41\x67':'\x74\x61\x62\x6c\x65','\x59\x45\x4f\x46\x75':_0x10a1c9(0x1b9),'\x42\x64\x6e\x71\x66':_0x10a1c9(0x1d3),'\x51\x4c\x76\x49\x48':_0x10a1c9(0x1c1),'\x6d\x7a\x72\x4f\x73':_0x10a1c9(0x1ae),'\x42\x4b\x4a\x73\x74':function(_0x7714a2){return _0x7714a2();},'\x6f\x49\x61\x74\x56':'\x5b\x46\x50\x54\x20\x47\x50\x41\x5d\x20'+_0x10a1c9(0x1ca)+'\x20\x74\x61\x62\x6c\x65\x20\x6e\x6f\x74'+_0x10a1c9(0x1e2)+'\x74\x68\x69\x73\x20\x70\x61\x67\x65\x2e','\x69\x4f\x4f\x48\x77':function(_0x14def1,_0x49dd33,_0x54a2c1){return _0x14def1(_0x49dd33,_0x54a2c1);},'\x71\x4e\x4e\x72\x78':_0x10a1c9(0x1ba),'\x4b\x41\x43\x77\x62':function(_0x22568d,_0x1b1ae8,_0x371e1d,_0x3f499f){return _0x22568d(_0x1b1ae8,_0x371e1d,_0x3f499f);},'\x68\x75\x42\x57\x7a':_0x10a1c9(0x201)+'\x44\x45','\x4e\x62\x79\x6a\x64':_0x10a1c9(0x1c7),'\x58\x56\x4b\x61\x58':_0x10a1c9(0x1f9),'\x44\x6f\x49\x6d\x74':function(_0x255118,_0x4e1b33,_0x21d696){return _0x255118(_0x4e1b33,_0x21d696);},'\x62\x45\x53\x65\x54':'\x53\x54\x41\x54\x55\x53','\x70\x58\x6f\x69\x74':_0x10a1c9(0x1ed)+_0x10a1c9(0x1d7)+'\x65\x20\x72\x65\x71\x75\x69\x72\x65\x64'+'\x20\x63\x6f\x6c\x75\x6d\x6e\x73\x20\x6e'+_0x10a1c9(0x1bc)+_0x10a1c9(0x1ab),'\x44\x65\x57\x4e\x76':'\x74\x62\x6f\x64\x79\x20\x74\x72','\x62\x47\x54\x59\x6c':function(_0x3f718c,_0x126bb9){return _0x3f718c===_0x126bb9;},'\x56\x6d\x71\x6d\x66':function(_0x1e714f,_0x35e16a){return _0x1e714f(_0x35e16a);},'\x62\x61\x51\x6b\x73':function(_0x4cbac8,_0x513f66){return _0x4cbac8(_0x513f66);},'\x7a\x6d\x5a\x4d\x73':function(_0x2a4f0d,_0x42c0d7){return _0x2a4f0d(_0x42c0d7);},'\x47\x66\x46\x41\x73':function(_0x5e26df,_0x2f65d9){return _0x5e26df(_0x2f65d9);},'\x57\x5a\x47\x50\x52':function(_0x2b742c,_0x59a66b){return _0x2b742c(_0x59a66b);},'\x78\x56\x4c\x76\x6d':function(_0x331c89,_0x5721b1){return _0x331c89===_0x5721b1;},'\x72\x6b\x64\x4f\x72':function(_0x5b4506,_0x51c3e3){return _0x5b4506<=_0x51c3e3;},'\x58\x45\x65\x61\x57':_0x10a1c9(0x1cd)+'\x20\x63\x6f\x75\x72\x73\x65\x73\x20\x61'+_0x10a1c9(0x1d6),'\x64\x45\x4f\x44\x43':_0x10a1c9(0x1d1),'\x4e\x68\x72\x4b\x56':_0x10a1c9(0x1de),'\x53\x50\x50\x70\x54':function(_0x5844fa,_0xb3aff9){return _0x5844fa!==_0xb3aff9;},'\x6f\x56\x4d\x42\x6e':_0x10a1c9(0x1b8),'\x73\x54\x76\x4f\x52':function(_0x3cafb2,_0x4b0465){return _0x3cafb2(_0x4b0465);},'\x6e\x4a\x6e\x66\x6f':function(_0x361351,_0x1fb233){return _0x361351(_0x1fb233);},'\x42\x77\x45\x79\x78':function(_0x25dd9e,_0x5153b1){return _0x25dd9e>_0x5153b1;},'\x6e\x6e\x76\x64\x6a':function(_0x235c50,_0x33dd9e){return _0x235c50>_0x33dd9e;}};const _0x2acaee=_0x411dee=>_0x411dee?_0x411dee['\x74\x65\x78\x74\x43\x6f\x6e\x74\x65\x6e'+'\x74'][_0x10a1c9(0x1e1)]():'',_0x6ef716=_0x30d5fe=>{const _0x185ab3=_0x10a1c9,_0x437b86=_0x48ffed['\x72\x64\x46\x59\x56'](parseFloat,String(_0x30d5fe)[_0x185ab3(0x1f0)]('\x2c','\x2e'));return _0x48ffed[_0x185ab3(0x1c0)](isNaN,_0x437b86)?null:_0x437b86;};function _0x49e08d(){const _0x1f6883=_0x10a1c9;for(const _0x1f6a62 of document[_0x1f6883(0x1bf)+'\x74\x6f\x72\x41\x6c\x6c'](_0x48ffed[_0x1f6883(0x1ee)])){const _0x164fc4=_0x1f6a62[_0x1f6883(0x1bf)+_0x1f6883(0x1b5)](_0x48ffed[_0x1f6883(0x1e9)])||_0x1f6a62[_0x1f6883(0x1bf)+_0x1f6883(0x1b5)]('\x74\x72');if(!_0x164fc4)continue;const _0x2aae42=Array[_0x1f6883(0x1ce)](_0x164fc4[_0x1f6883(0x1bf)+_0x1f6883(0x1cc)](_0x48ffed[_0x1f6883(0x1b7)])),_0x2688b8=_0x2aae42[_0x1f6883(0x1f6)](_0x4aca3f=>_0x2acaee(_0x4aca3f)[_0x1f6883(0x1c3)+'\x65']()[_0x1f6883(0x1f0)](/\s+/g,'\x20')[_0x1f6883(0x1e1)]());if(!_0x2688b8[_0x1f6883(0x1f8)](_0x48ffed[_0x1f6883(0x1eb)]))continue;if(!_0x2688b8[_0x1f6883(0x1f8)](_0x48ffed[_0x1f6883(0x1ef)]))continue;const _0x78b33={};return _0x2688b8[_0x1f6883(0x1fa)]((_0x3b1852,_0x4908cc)=>{if(!(_0x3b1852 in _0x78b33))_0x78b33[_0x3b1852]=_0x4908cc;}),{'\x74\x62\x6c':_0x1f6a62,'\x63\x6f\x6c\x49\x64\x78':_0x78b33};}return null;}function _0x1b1365(_0x1494ec,..._0x5da40b){for(const _0x2f0602 of _0x5da40b){if(_0x2f0602 in _0x1494ec)return _0x1494ec[_0x2f0602];}return-(0xbf3+0x1ee*-0x7+0x50*0x5);}function _0x1d4a54(){const _0x1acbb3=_0x10a1c9,_0x7bcf5f=[],_0x389d59=_0x48ffed[_0x1acbb3(0x1e4)](_0x49e08d);if(!_0x389d59)return console[_0x1acbb3(0x1b3)](_0x48ffed[_0x1acbb3(0x1c4)]),_0x7bcf5f;const {tbl:_0x7e0b26,colIdx:_0x2dc55c}=_0x389d59,_0x3a00f7=_0x48ffed[_0x1acbb3(0x1e7)](_0x1b1365,_0x2dc55c,_0x48ffed[_0x1acbb3(0x1eb)]),_0x3eedc4=_0x48ffed[_0x1acbb3(0x1e7)](_0x1b1365,_0x2dc55c,_0x48ffed[_0x1acbb3(0x1ea)]),_0x3baa1e=_0x48ffed[_0x1acbb3(0x1da)](_0x1b1365,_0x2dc55c,_0x48ffed[_0x1acbb3(0x1c2)],_0x48ffed[_0x1acbb3(0x1fc)]),_0xa3ea2a=_0x48ffed['\x4b\x41\x43\x77\x62'](_0x1b1365,_0x2dc55c,_0x1acbb3(0x1fe)+'\x4d\x45',_0x48ffed['\x58\x56\x4b\x61\x58']),_0xf61cda=_0x48ffed[_0x1acbb3(0x1da)](_0x1b1365,_0x2dc55c,_0x1acbb3(0x1c5),_0x1acbb3(0x1e3)),_0x279c93=_0x48ffed[_0x1acbb3(0x1cf)](_0x1b1365,_0x2dc55c,_0x1acbb3(0x1ae)),_0x4d9d30=_0x1b1365(_0x2dc55c,_0x48ffed[_0x1acbb3(0x1f5)]);console[_0x1acbb3(0x1f4)](_0x1acbb3(0x1ed)+'\x52\x65\x73\x6f\x6c\x76\x65\x64\x20\x63'+_0x1acbb3(0x1ec),{'\x69\x54\x65\x72\x6d':_0x3a00f7,'\x69\x53\x65\x6d\x65\x73\x74\x65\x72':_0x3eedc4,'\x69\x43\x6f\x64\x65':_0x3baa1e,'\x69\x4e\x61\x6d\x65':_0xa3ea2a,'\x69\x43\x72\x65\x64\x69\x74':_0xf61cda,'\x69\x47\x72\x61\x64\x65':_0x279c93,'\x69\x53\x74\x61\x74\x75\x73':_0x4d9d30});if([_0x3a00f7,_0x3eedc4,_0x3baa1e,_0xf61cda,_0x279c93,_0x4d9d30][_0x1acbb3(0x1f8)](-(0x82+-0x132a*0x1+0x12a9)))return console[_0x1acbb3(0x1af)](_0x48ffed[_0x1acbb3(0x1d9)],_0x2dc55c),_0x7bcf5f;const _0x3debb8=Math[_0x1acbb3(0x1b4)](_0x3a00f7,_0x3eedc4,_0x3baa1e,_0xa3ea2a,_0xf61cda,_0x279c93,_0x4d9d30);let _0x54f0aa=Array['\x66\x72\x6f\x6d'](_0x7e0b26[_0x1acbb3(0x1bf)+_0x1acbb3(0x1cc)](_0x48ffed[_0x1acbb3(0x1f2)]));_0x48ffed['\x62\x47\x54\x59\x6c'](_0x54f0aa[_0x1acbb3(0x200)],-0x2f9*-0xa+-0x224e+0x494)&&(_0x54f0aa=Array[_0x1acbb3(0x1ce)](_0x7e0b26[_0x1acbb3(0x1bf)+_0x1acbb3(0x1cc)]('\x74\x72'))[_0x1acbb3(0x1ff)](_0x6f92c6=>_0x6f92c6[_0x1acbb3(0x1bf)+_0x1acbb3(0x1b5)]('\x74\x64')));for(const _0x42cb8e of _0x54f0aa){const _0x2f2956=_0x42cb8e[_0x1acbb3(0x1bf)+_0x1acbb3(0x1cc)]('\x74\x64');if(_0x2f2956[_0x1acbb3(0x200)]<=_0x3debb8)continue;const _0x446051=_0x6ef716(_0x48ffed[_0x1acbb3(0x1bd)](_0x2acaee,_0x2f2956[_0x3a00f7])),_0x3d1c3c=_0x48ffed[_0x1acbb3(0x1b0)](_0x2acaee,_0x2f2956[_0x3eedc4]),_0x3f765c=_0x48ffed['\x7a\x6d\x5a\x4d\x73'](_0x2acaee,_0x2f2956[_0x3baa1e]),_0x2042e4=_0xa3ea2a>=-0x3e8+0xafc*-0x3+0x24dc?_0x48ffed['\x72\x64\x46\x59\x56'](_0x2acaee,_0x2f2956[_0xa3ea2a]):'',_0x14ca42=_0x48ffed[_0x1acbb3(0x1bd)](_0x6ef716,_0x48ffed[_0x1acbb3(0x1d4)](_0x2acaee,_0x2f2956[_0xf61cda])),_0x3851e4=_0x48ffed[_0x1acbb3(0x1d4)](_0x6ef716,_0x48ffed[_0x1acbb3(0x1ac)](_0x2acaee,_0x2f2956[_0x279c93])),_0x3a31db=_0x2acaee(_0x2f2956[_0x4d9d30])['\x74\x6f\x4c\x6f\x77\x65\x72\x43\x61\x73'+'\x65']()[_0x1acbb3(0x1e1)]();if(_0x48ffed['\x62\x47\x54\x59\x6c'](_0x446051,null))continue;let _0x466264=![];for(let _0x12d187=_0x4d9d30;_0x12d187<_0x2f2956[_0x1acbb3(0x200)];_0x12d187++){if(_0x2f2956[_0x12d187][_0x1acbb3(0x1be)+'\x74'][_0x1acbb3(0x1f8)]('\x2a')||_0x2f2956[_0x12d187][_0x1acbb3(0x1c6)][_0x1acbb3(0x1f8)]('\x2a')){_0x466264=!![];break;}}if(_0x466264)continue;if(_0x3a31db!=='\x70\x61\x73\x73\x65\x64')continue;if(_0x48ffed[_0x1acbb3(0x1c9)](_0x3851e4,null))continue;if(_0x14ca42===null||_0x48ffed[_0x1acbb3(0x1fd)](_0x14ca42,-0x953+0xc*-0x175+0x1acf))continue;if(!_0x3f765c)continue;_0x7bcf5f['\x70\x75\x73\x68']({'\x74\x65\x72\x6d':_0x446051,'\x73\x65\x6d\x65\x73\x74\x65\x72':_0x3d1c3c,'\x63\x6f\x64\x65':_0x3f765c,'\x6e\x61\x6d\x65':_0x2042e4,'\x63\x72\x65\x64\x69\x74':_0x14ca42,'\x67\x72\x61\x64\x65':_0x3851e4,'\x73\x74\x61\x74\x75\x73':_0x1acbb3(0x1d2)});}return console[_0x1acbb3(0x1f1)](_0x1acbb3(0x1ed)+_0x1acbb3(0x1b1),_0x7bcf5f[_0x1acbb3(0x200)],_0x48ffed[_0x1acbb3(0x202)],new Set(_0x7bcf5f[_0x1acbb3(0x1f6)](_0x5c7185=>_0x5c7185[_0x1acbb3(0x1f7)]))['\x73\x69\x7a\x65'],_0x48ffed[_0x1acbb3(0x203)]),_0x7bcf5f;}function _0x900f31(_0x41d5a1){const _0x39bde8=_0x10a1c9;chrome[_0x39bde8(0x1f3)][_0x39bde8(0x1b6)+'\x65']({'\x74\x79\x70\x65':_0x48ffed[_0x39bde8(0x1cb)],'\x64\x61\x74\x61':_0x41d5a1},()=>{const _0x54a198=_0x39bde8;void chrome[_0x54a198(0x1f3)]['\x6c\x61\x73\x74\x45\x72\x72\x6f\x72'];});}chrome[_0x10a1c9(0x1f3)][_0x10a1c9(0x1e0)]['\x61\x64\x64\x4c\x69\x73\x74\x65\x6e\x65'+'\x72']((_0x1515ef,_0x10df5b,_0x250a5e)=>{const _0x533ab9=_0x10a1c9;if(_0x48ffed[_0x533ab9(0x1d0)](_0x1515ef[_0x533ab9(0x1df)],_0x48ffed[_0x533ab9(0x1c8)]))return;const _0xc35e5b=_0x48ffed[_0x533ab9(0x1e4)](_0x1d4a54);return _0x48ffed[_0x533ab9(0x204)](_0x900f31,_0xc35e5b),_0x48ffed[_0x533ab9(0x1e5)](_0x250a5e,{'\x6f\x6b':!![],'\x64\x61\x74\x61':_0xc35e5b}),!![];}),function _0x3f917f(){const _0x8ffd28=_0x10a1c9,_0x24704b=_0x48ffed[_0x8ffd28(0x1e4)](_0x1d4a54);_0x48ffed[_0x8ffd28(0x1e8)](_0x24704b[_0x8ffd28(0x200)],-0xf7d+0x5*-0x83+0x16*0xd2)?_0x900f31(_0x24704b):setTimeout(()=>{const _0x52c149=_0x8ffd28,_0x4d2dab=_0x1d4a54();if(_0x48ffed[_0x52c149(0x1dd)](_0x4d2dab[_0x52c149(0x200)],-0x1*0x22b9+-0xe47+0x3100))_0x48ffed[_0x52c149(0x204)](_0x900f31,_0x4d2dab);},-0x28d*0xf+-0x1*-0x2bd+0x2b56);}();}()));function a0_0x44d4(){const _0x3e9509=['\x42\x4b\x50\x55\x7a\x4d\x38','\x6d\x74\x61\x58\x6f\x64\x47\x57\x75\x66\x62\x30\x73\x33\x50\x74','\x41\x75\x39\x70\x73\x68\x43','\x42\x4d\x35\x32\x7a\x67\x4f','\x77\x75\x76\x70\x72\x4e\x75','\x43\x75\x35\x6f\x43\x4e\x47','\x75\x75\x58\x32\x73\x75\x47','\x42\x32\x58\x31\x42\x77\x35\x5a\x6f\x47','\x77\x30\x7a\x71\x76\x63\x62\x68\x75\x65\x66\x44\x69\x61','\x42\x4d\x48\x65\x71\x77\x43','\x42\x78\x50\x59\x74\x33\x6d','\x43\x4d\x76\x57\x42\x67\x66\x4a\x7a\x71','\x41\x77\x35\x4d\x42\x57','\x72\x67\x76\x78\x74\x4e\x79','\x43\x4e\x76\x55\x44\x67\x4c\x54\x7a\x71','\x7a\x67\x76\x49\x44\x77\x43','\x79\x4b\x76\x74\x7a\x76\x71','\x42\x77\x66\x57','\x43\x32\x76\x54\x7a\x78\x6e\x30\x7a\x78\x69','\x41\x77\x35\x4a\x42\x68\x76\x4b\x7a\x78\x6d','\x74\x4b\x66\x6e\x72\x71','\x7a\x4d\x39\x59\x72\x77\x66\x4a\x41\x61','\x6d\x74\x65\x31\x6d\x5a\x71\x5a\x6e\x77\x39\x52\x7a\x4d\x4c\x4c\x79\x71','\x74\x4d\x6a\x35\x41\x4d\x71','\x43\x4d\x54\x4b\x74\x33\x69','\x75\x31\x76\x63\x73\x4b\x76\x64\x76\x63\x62\x6f\x71\x71','\x7a\x4d\x4c\x53\x44\x67\x76\x59','\x42\x67\x76\x55\x7a\x33\x72\x4f','\x75\x31\x76\x63\x73\x4b\x76\x64\x76\x63\x62\x64\x74\x57','\x77\x65\x76\x4c\x79\x76\x43','\x7a\x65\x76\x70\x72\x65\x6d','\x43\x31\x72\x32\x74\x31\x69','\x42\x49\x62\x30\x79\x77\x6a\x53\x7a\x73\x34','\x76\x31\x50\x68\x75\x66\x69','\x6e\x74\x6d\x59\x6e\x5a\x61\x30\x41\x31\x72\x6f\x74\x76\x7a\x58','\x72\x31\x6a\x62\x72\x65\x75','\x7a\x78\x6a\x59\x42\x33\x69','\x79\x4d\x66\x72\x41\x33\x6d','\x75\x32\x6e\x59\x79\x78\x62\x4c\x7a\x61','\x6d\x74\x4b\x33\x6e\x74\x47\x33\x6f\x67\x39\x7a\x7a\x30\x50\x68\x74\x61','\x44\x32\x66\x59\x42\x47','\x42\x77\x66\x34','\x44\x67\x39\x59','\x43\x32\x76\x55\x7a\x65\x31\x4c\x43\x33\x6e\x48\x7a\x57','\x71\x4d\x72\x55\x43\x77\x79','\x75\x30\x6e\x73\x71\x76\x62\x66','\x44\x67\x48\x4c\x79\x77\x71\x47\x44\x68\x69','\x75\x30\x76\x6e\x72\x76\x6e\x75\x72\x76\x69','\x6e\x74\x72\x77\x76\x4d\x72\x77\x44\x4b\x65','\x42\x33\x71\x47\x7a\x4d\x39\x31\x42\x4d\x71\x47\x41\x71','\x76\x4d\x31\x58\x42\x77\x79','\x44\x67\x76\x34\x44\x65\x6e\x56\x42\x4e\x72\x4c\x42\x47','\x43\x78\x76\x4c\x43\x4e\x4c\x74\x7a\x77\x58\x4c\x79\x57','\x43\x4d\x72\x67\x77\x76\x79','\x76\x65\x76\x73\x74\x71','\x41\x68\x76\x63\x76\x33\x4f','\x44\x67\x39\x76\x43\x68\x62\x4c\x43\x4b\x6e\x48\x43\x57','\x42\x30\x4c\x48\x44\x66\x79','\x71\x31\x6a\x66\x72\x65\x4c\x75','\x41\x77\x35\x55\x7a\x78\x6a\x69\x76\x65\x31\x6d','\x71\x30\x39\x65\x72\x71','\x42\x31\x7a\x6e\x71\x4d\x34','\x45\x66\x7a\x6d\x44\x4d\x30','\x76\x68\x6a\x48\x42\x4e\x6e\x4a\x43\x4d\x4c\x57\x44\x61','\x74\x4d\x48\x59\x73\x31\x79','\x44\x67\x39\x59\x71\x77\x58\x53','\x43\x78\x76\x48\x42\x67\x4c\x4d\x45\x77\x4c\x55\x7a\x57','\x7a\x4e\x6a\x56\x42\x71','\x72\x67\x39\x6a\x42\x78\x71','\x75\x31\x62\x71\x43\x66\x71','\x43\x32\x76\x54\x7a\x78\x6e\x30\x7a\x78\x6a\x5a\x6c\x47','\x75\x67\x66\x5a\x43\x32\x76\x4b','\x44\x67\x47\x53\x69\x68\x72\x4b','\x72\x32\x7a\x67\x71\x78\x6d','\x6d\x74\x61\x31\x73\x78\x7a\x72\x75\x4d\x50\x77','\x79\x33\x6a\x56\x43\x33\x6d','\x74\x32\x35\x4c\x69\x67\x39\x59\x69\x67\x31\x56\x43\x47','\x6e\x74\x47\x35\x6e\x5a\x47\x57\x42\x67\x6e\x73\x74\x4e\x48\x62','\x43\x66\x48\x56\x41\x78\x71','\x73\x30\x66\x64\x44\x32\x69','\x6d\x74\x69\x58\x6e\x74\x61\x5a\x6d\x66\x44\x72\x44\x76\x72\x6e\x42\x61','\x6d\x74\x65\x33\x6f\x64\x44\x36\x43\x32\x31\x58\x44\x66\x4f','\x71\x4e\x44\x66\x45\x78\x47','\x75\x30\x66\x77\x72\x71','\x44\x68\x4c\x57\x7a\x71','\x42\x32\x35\x6e\x7a\x78\x6e\x5a\x79\x77\x44\x4c','\x44\x68\x6a\x50\x42\x71','\x69\x67\x7a\x56\x44\x77\x35\x4b\x69\x67\x39\x55\x69\x61','\x71\x31\x6a\x66\x72\x65\x4c\x75\x75\x57','\x71\x4b\x54\x6b\x43\x33\x71'];a0_0x44d4=function(){return _0x3e9509;};return a0_0x44d4();}
+/**
+ * FPT GPA Dashboard - Content Script
+ * Runs on: https://fap.fpt.edu.vn/Grade/StudentTranscript.aspx
+ *
+ * Real column layout of StudentTranscript.aspx (0-based):
+ *   0  NO
+ *   1  TERM
+ *   2  SEMESTER
+ *   3  SUBJECT CODE
+ *   4  PREREQUISITE
+ *   5  REPLACED SUBJECT
+ *   6  SUBJECT NAME
+ *   7  CREDIT
+ *   8  GRADE
+ *   9  STATUS
+ *
+ * FILTER RULES (all must be true to include a row):
+ *   - NO ASTERISK (*)    (exclude English-prep and non-GPA subjects marked with a red asterisk next to Status)
+ *   - STATUS == "Passed" (exclude "Studying", "Failed", blank, etc.)
+ *   - GRADE  is a number (exclude rows without a grade yet)
+ *   - CREDIT is a number > 0
+ *   - SUBJECT CODE is not empty
+ *
+ * Semester names are read DIRECTLY from the SEMESTER column.
+ * They are NEVER generated or inferred from term numbers.
+ */
+
+(function () {
+  'use strict';
+
+  const txt = (el) => (el ? el.textContent.trim() : '');
+  const num = (s)  => { const n = parseFloat(String(s).replace(',', '.')); return isNaN(n) ? null : n; };
+
+  /* ------------------------------------------------------------------
+   * findTable()
+   * Locate the transcript <table> and return:
+   *   { tbl, colIdx }  where colIdx maps field names to column numbers.
+   * Uses exact-then-partial matching so short keys like "TERM" never
+   * accidentally match "SEMESTER".
+   * ------------------------------------------------------------------ */
+  function findTable() {
+    for (const tbl of document.querySelectorAll('table')) {
+      // Prefer <thead> header row; fall back to the first <tr> in the table.
+      const hdrRow = tbl.querySelector('thead tr') || tbl.querySelector('tr');
+      if (!hdrRow) continue;
+
+      const cells   = Array.from(hdrRow.querySelectorAll('th, td'));
+      const headers = cells.map(c => txt(c).toUpperCase().replace(/\s+/g, ' ').trim());
+
+      // Must contain both TERM and GRADE columns to be the right table.
+      if (!headers.includes('TERM'))  continue;
+      if (!headers.includes('GRADE')) continue;
+
+      // Build colIdx using the full header text as key (exact match).
+      const colIdx = {};
+      headers.forEach((h, i) => {
+        if (!(h in colIdx)) colIdx[h] = i;
+      });
+
+      return { tbl, colIdx };
+    }
+    return null;
+  }
+
+  /* ------------------------------------------------------------------
+   * resolve(colIdx, ...keys)
+   * Return the first column index whose header EXACTLY matches one of
+   * the given keys, or -1 if none found.
+   * Exact match prevents "TERM" from hitting "SEMESTER" etc.
+   * ------------------------------------------------------------------ */
+  function resolve(colIdx, ...keys) {
+    for (const k of keys) {
+      if (k in colIdx) return colIdx[k];
+    }
+    return -1;
+  }
+
+  /* ------------------------------------------------------------------
+   * scrape()
+   * Parse every <tbody tr> in the transcript table and return an array
+   * of qualifying course objects.
+   * ------------------------------------------------------------------ */
+  function scrape() {
+    const courses = [];
+
+    const found = findTable();
+    if (!found) {
+      console.warn('[FPT GPA] Transcript table not found on this page.');
+      return courses;
+    }
+
+    const { tbl, colIdx } = found;
+
+    // Resolve column indices by EXACT header name.
+    // Fallback aliases listed as additional args handle minor label variations.
+    const iTerm     = resolve(colIdx, 'TERM');
+    const iSemester = resolve(colIdx, 'SEMESTER');
+    const iCode     = resolve(colIdx, 'SUBJECT CODE', 'CODE');
+    const iName     = resolve(colIdx, 'SUBJECT NAME', 'NAME');
+    const iCredit   = resolve(colIdx, 'CREDIT', 'CREDITS');
+    const iGrade    = resolve(colIdx, 'GRADE');
+    const iStatus   = resolve(colIdx, 'STATUS');
+
+    console.debug('[FPT GPA] Resolved columns:', { iTerm, iSemester, iCode, iName, iCredit, iGrade, iStatus });
+
+    // Abort if any critical column could not be found.
+    if ([iTerm, iSemester, iCode, iCredit, iGrade, iStatus].includes(-1)) {
+      console.error('[FPT GPA] One or more required columns not found in table.', colIdx);
+      return courses;
+    }
+
+    const maxIdx = Math.max(iTerm, iSemester, iCode, iName, iCredit, iGrade, iStatus);
+
+    // Use tbody rows exclusively to skip the header row.
+    // If the table has no <tbody> (some ASP.NET tables render flat), fall back
+    // to all <tr> elements whose first child is a <td> (not a <th>).
+    let bodyRows = Array.from(tbl.querySelectorAll('tbody tr'));
+    if (bodyRows.length === 0) {
+      bodyRows = Array.from(tbl.querySelectorAll('tr')).filter(r => r.querySelector('td'));
+    }
+
+    for (const row of bodyRows) {
+      const cells = row.querySelectorAll('td');
+
+      // Row must have enough cells to reach the last required column.
+      if (cells.length <= maxIdx) continue;
+
+      const term     = num(txt(cells[iTerm]));
+      const semester = txt(cells[iSemester]);   // always read directly from DOM
+      const code     = txt(cells[iCode]);
+      const name     = iName >= 0 ? txt(cells[iName]) : '';
+      const credit   = num(txt(cells[iCredit]));
+      const grade    = num(txt(cells[iGrade]));
+      const status   = txt(cells[iStatus]).toLowerCase().trim();
+
+      // RULE 1: Exclude non-GPA subjects (marked with a red asterisk '*' next to or in the STATUS column)
+      if (term === null) continue;
+
+      let hasAsterisk = false;
+      for (let i = iStatus; i < cells.length; i++) {
+        if (cells[i].textContent.includes('*') || cells[i].innerHTML.includes('*')) {
+          hasAsterisk = true;
+          break;
+        }
+      }
+      if (hasAsterisk) continue;
+
+      // RULE 2: Only "Passed" status contributes to GPA.
+      //         "Studying", "Failed", "Exempt", blank, etc. are all excluded.
+      if (status !== 'passed') continue;
+
+      // RULE 3: Must have a real numeric grade.
+      if (grade === null) continue;
+
+      // RULE 4: Must have a positive credit value.
+      if (credit === null || credit <= 0) continue;
+
+      // RULE 5: Subject code must not be blank (skip subtotal / blank rows).
+      if (!code) continue;
+
+      courses.push({ term, semester, code, name, credit, grade, status: 'Passed' });
+    }
+
+    console.info(
+      '[FPT GPA] Scraped', courses.length, 'qualifying courses across',
+      new Set(courses.map(c => c.semester)).size, 'semesters.'
+    );
+    return courses;
+  }
+
+  /* ------------------------------------------------------------------
+   * saveToBackground(data)
+   * Push scraped data to the service worker cache.
+   * ------------------------------------------------------------------ */
+  function saveToBackground(data) {
+    chrome.runtime.sendMessage({ type: 'SAVE', data }, () => {
+      // Ignore errors (background may not be ready yet on very first load).
+      void chrome.runtime.lastError;
+    });
+  }
+
+  /* ------------------------------------------------------------------
+   * Message listener: popup/background asks for a fresh scrape.
+   * ------------------------------------------------------------------ */
+  chrome.runtime.onMessage.addListener((msg, _sender, respond) => {
+    if (msg.type !== 'SCRAPE') return;
+    const data = scrape();
+    saveToBackground(data);
+    respond({ ok: true, data });
+    return true;
+  });
+
+  /* ------------------------------------------------------------------
+   * Auto-scrape on page load.
+   * FAP pages sometimes use ASP.NET UpdatePanel partial postbacks, so
+   * the table might not be fully populated at document_idle.
+   * We attempt immediately and then retry once after 2 s.
+   * ------------------------------------------------------------------ */
+  (function autoScrape() {
+    const data = scrape();
+    if (data.length > 0) {
+      saveToBackground(data);
+    } else {
+      // Retry after the page has had a chance to finish any async rendering.
+      setTimeout(() => {
+        const retryData = scrape();
+        if (retryData.length > 0) saveToBackground(retryData);
+      }, 2000);
+    }
+  })();
+
+})();
