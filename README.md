@@ -39,7 +39,7 @@ Bạn có thể lựa chọn một trong hai phương thức cài đặt dưới
 
 ### Cách 1: Cài đặt trực tiếp từ Cửa hàng Edge Add-ons (Khuyên dùng - Nhanh nhất)
 1. Mở trình duyệt Microsoft Edge.
-2. Truy cập vào trang cửa hàng của tiện ích (sau khi được Microsoft phê duyệt): **[GPA FPT University trên Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/developer/home)**.
+2. Truy cập vào trang cửa hàng của tiện ích (sau khi được Microsoft phê duyệt): **[GPA FPT University trên Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/lmcfppbohifkbeahgjcmkgmojijghode)**.
 3. Nhấp vào nút **Get (Nhận)** để cài đặt tự động. Tiện ích sẽ tự động tích hợp vào trình duyệt của bạn một cách nhanh chóng và an toàn.
 
 ---
