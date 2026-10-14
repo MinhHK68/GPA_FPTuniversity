@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "GPA FPT University",
-  "version": "2.1.1",
-  "description": "GPA analytics dashboard for FPT University StudentTranscript page",
+  "version": "2.2.0",
+  "description": "GPA analytics dashboard for FPT University Transcript page",
   "permissions": ["activeTab", "storage", "scripting"],
   "host_permissions": ["https://fap.fpt.edu.vn/*"],
   "action": {
@@ -15,7 +15,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://fap.fpt.edu.vn/Grade/StudentTranscript.aspx*"],
+      "matches": [
+        "https://fap.fpt.edu.vn/Grade/StudentTranscript.aspx*",
+        "https://fap.fpt.edu.vn/Report/Transcript*"
+      ],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
