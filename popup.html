@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8"/>
   <title>GPA FPT University</title>
@@ -17,10 +17,10 @@
     </div>
     <div>
       <div class="hdr-title">GPA FPT University</div>
-      <div class="hdr-sub">FPT University · Transcript Analytics</div>
+      <div class="hdr-sub" id="hdrSub">Đại học FPT · Phân tích Bảng điểm</div>
     </div>
   </div>
-  <button id="btnRefresh" class="icon-btn" title="Refresh data">
+  <button id="btnRefresh" class="icon-btn" title="Làm mới dữ liệu">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
       <path d="M1 4v6h6M23 20v-6h-6" stroke="currentColor" stroke-width="2.2"
             stroke-linecap="round" stroke-linejoin="round"/>
@@ -33,17 +33,15 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ LOADING ━━ -->
 <div id="stateLoading" class="state-screen">
   <div class="spinner"></div>
-  <p>Reading transcript…</p>
+  <p id="loadingText">Đang đọc bảng điểm…</p>
 </div>
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ EMPTY ━━━━ -->
 <div id="stateEmpty" class="state-screen" style="display:none">
   <div class="state-icon">🎓</div>
-  <h3>No Transcript Data</h3>
-  <p>Vui lòng mở trang Bảng điểm FAP (fap.fpt.edu.vn/Report/Transcript) và bấm nút dưới:</p>
-  <button id="btnRetryScrape" class="pill-btn" style="cursor:pointer;border:none;margin-bottom:8px;">🔄 Tải lại dữ liệu (Refresh)</button>
-  <a href="https://fap.fpt.edu.vn/Report/Transcript"
-     target="_blank" class="pill-btn" style="background:#555;font-size:11px;">Mở tab FAP mới →</a>
+  <h3 id="emptyTitle">Không có dữ liệu bảng điểm</h3>
+  <p id="emptyDesc">Vui lòng mở trang Bảng điểm FAP (Report/Transcript) rồi bấm nút dưới để tính:</p>
+  <button id="btnRetryScrape" class="pill-btn" style="cursor:pointer;border:none;">🔄 Tải lại dữ liệu (Refresh)</button>
 </div>
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ DASHBOARD ━━ -->
@@ -52,18 +50,18 @@
   <!-- ── Controls ────────────────────────────── -->
   <section class="controls">
     <div class="ctrl-group">
-      <span class="ctrl-label">View</span>
+      <span class="ctrl-label" id="lblView">Chế độ xem</span>
       <select id="selMode" class="sel">
-        <option value="all">All Semesters</option>
-        <option value="one">One Semester</option>
+        <option value="all">Tất cả học kỳ</option>
+        <option value="one">Một học kỳ</option>
       </select>
     </div>
     <div class="ctrl-group" id="grpSemester" style="display:none">
-      <span class="ctrl-label">Semester</span>
+      <span class="ctrl-label" id="lblSem">Học kỳ</span>
       <select id="selSemester" class="sel"></select>
     </div>
     <div class="ctrl-group">
-      <span class="ctrl-label">Scale</span>
+      <span class="ctrl-label" id="lblScale">Hệ điểm</span>
       <div class="toggle-pair">
         <button class="toggle-btn active" data-scale="10">× 10</button>
         <button class="toggle-btn" data-scale="4">× 4</button>
@@ -74,7 +72,7 @@
   <!-- ── Hero ─────────────────────────────────── -->
   <section class="hero-card">
     <div class="hero-gpa-block">
-      <div class="hero-label">Overall GPA</div>
+      <div class="hero-label" id="lblHero">Điểm GPA tích lũy</div>
       <div class="hero-gpa" id="heroGpa">—</div>
       <div class="hero-max" id="heroMax">/ 10.0</div>
     </div>
@@ -90,38 +88,37 @@
     <div class="pill-stat">
       <span class="ps-icon">📚</span>
       <span class="ps-val" id="statSubjects">0</span>
-      <span class="ps-lbl">Subjects</span>
+      <span class="ps-lbl" id="lblStatSub">Số môn</span>
     </div>
     <div class="pill-stat">
       <span class="ps-icon">🎯</span>
       <span class="ps-val" id="statCredits">0</span>
-      <span class="ps-lbl">Credits</span>
+      <span class="ps-lbl" id="lblStatCred">Tín chỉ</span>
     </div>
     <div class="pill-stat">
       <span class="ps-icon">📅</span>
       <span class="ps-val" id="statSemesters">0</span>
-      <span class="ps-lbl">Semesters</span>
+      <span class="ps-lbl" id="lblStatSem">Số kỳ</span>
     </div>
     <div class="pill-stat">
       <span class="ps-icon">⬆️</span>
       <span class="ps-val" id="statBest">—</span>
-      <span class="ps-lbl">Best Sem</span>
+      <span class="ps-lbl" id="lblStatBest">Kỳ cao nhất</span>
     </div>
   </section>
 
   <!-- ── Tabs ──────────────────────────────────── -->
   <nav class="tabs" id="tabs">
-    <button class="tab active" data-tab="suggest">💡 Tips</button>
-    <button class="tab" data-tab="sim">🧪 Sim</button>
-    <button class="tab" data-tab="export">📥 Export</button>
+    <button class="tab active" data-tab="suggest" id="tabBtnSuggest">💡 Gợi ý</button>
+    <button class="tab" data-tab="sim" id="tabBtnSim">🧪 Giả lập</button>
+    <button class="tab" data-tab="export" id="tabBtnExport">📥 Xuất file</button>
   </nav>
-
 
   <!-- ── Tab: Suggestions ──────────────────────── -->
   <div class="tab-pane active" id="pane-suggest">
     <div class="pane-hdr">
-      <strong>Top Improvement Opportunities</strong>
-      <p>Courses where raising your grade boosts GPA the most</p>
+      <strong id="hdrSuggestTitle">Môn học nên cải thiện điểm</strong>
+      <p id="hdrSuggestDesc">Các môn nếu cải thiện điểm sẽ tăng GPA nhiều nhất</p>
     </div>
     <div id="suggestList"></div>
   </div>
@@ -129,39 +126,39 @@
   <!-- ── Tab: Simulator ────────────────────────── -->
   <div class="tab-pane" id="pane-sim">
     <div class="pane-hdr">
-      <strong>GPA Simulator</strong>
-      <p>Edit grades below — GPA recalculates instantly</p>
+      <strong id="hdrSimTitle">Giả lập điểm GPA</strong>
+      <p id="hdrSimDesc">Chỉnh sửa điểm dự kiến bên dưới — GPA tự động tính lại ngay</p>
     </div>
     <div id="simList" class="sim-list"></div>
     <div class="sim-result" id="simResult">
-      <div class="sr-row"><span>Current GPA</span><span id="srCurrent" class="sr-num">—</span></div>
-      <div class="sr-row"><span>Simulated GPA</span><span id="srNew" class="sr-num sr-new">—</span></div>
-      <div class="sr-row"><span>Difference</span><span id="srDiff" class="sr-num">—</span></div>
+      <div class="sr-row"><span id="lblSimCurr">Điểm hiện tại</span><span id="srCurrent" class="sr-num">—</span></div>
+      <div class="sr-row"><span id="lblSimNew">Điểm giả lập</span><span id="srNew" class="sr-num sr-new">—</span></div>
+      <div class="sr-row"><span id="lblSimDiff">Chênh lệch</span><span id="srDiff" class="sr-num">—</span></div>
     </div>
-    <button id="simReset" class="ghost-btn">↺ Reset all grades</button>
+    <button id="simReset" class="ghost-btn">↺ Đặt lại tất cả điểm</button>
   </div>
 
   <!-- ── Tab: Export ───────────────────────────── -->
   <div class="tab-pane" id="pane-export">
     <div class="pane-hdr">
-      <strong>Export Report</strong>
-      <p>Download your GPA analysis in your preferred format</p>
+      <strong id="hdrExpTitle">Xuất báo cáo</strong>
+      <p id="hdrExpDesc">Tải bảng phân tích GPA theo định dạng mong muốn</p>
     </div>
     <div class="export-grid">
       <button class="exp-btn" id="expCsv">
         <span class="exp-ico">📄</span>
         <span class="exp-lbl">CSV</span>
-        <span class="exp-sub">Spreadsheet-ready</span>
+        <span class="exp-sub" id="subCsv">Mở bằng Excel</span>
       </button>
       <button class="exp-btn" id="expJson">
         <span class="exp-ico">🗂️</span>
         <span class="exp-lbl">JSON</span>
-        <span class="exp-sub">Full data dump</span>
+        <span class="exp-sub" id="subJson">Dữ liệu chi tiết</span>
       </button>
       <button class="exp-btn" id="expHtml">
         <span class="exp-ico">📑</span>
-        <span class="exp-lbl">HTML Report</span>
-        <span class="exp-sub">Print-ready PDF</span>
+        <span class="exp-lbl">HTML</span>
+        <span class="exp-sub" id="subHtml">Báo cáo in / PDF</span>
       </button>
     </div>
     <div id="expMsg" class="exp-msg"></div>
@@ -169,7 +166,7 @@
 
 </main>
 
-<footer class="ftr">GPA FPT University v2.2 · fap.fpt.edu.vn/Report/Transcript</footer>
+<footer class="ftr" id="ftrText">GPA FPT University v2.2</footer>
 
 <script src="popup.js"></script>
 </body>
