@@ -1,78 +1,54 @@
-# GPA FPT University (GPA_FPTuniversity)
+# GPA FPT University – Extension tính GPA FPT từ FAP
 
-<p align="center">
-  <img src="icons/icon128.png" alt="Logo" width="100"/>
-</p>
+<img src="icons/icon128.png" alt="Biểu tượng GPA FPT University" width="96" height="96">
 
-<p align="center">
-  <strong>Giải pháp phân tích điểm số GPA và thống kê tín chỉ toàn diện dành cho sinh viên Đại học FPT.</strong>
-</p>
+**Tính GPA FPT hệ 10 và hệ 4 từ bảng điểm FAP, thống kê tín chỉ và giả lập cải thiện điểm.** Tiện ích dành cho sinh viên Đại học FPT, phát triển bởi MinhHK68.
 
-<p align="center">
-  <a href="https://github.com/MinhHK68/GPA_FPTuniversity/tags"><img src="https://img.shields.io/github/v/tag/MinhHK68/GPA_FPTuniversity?label=Version" alt="Version"></a>
-  <img src="https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Brave-orange" alt="Platform">
-  <img src="https://img.shields.io/badge/License-Proprietary-red" alt="License">
-</p>
+**[Cài miễn phí trên Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/lmcfppbohifkbeahgjcmkgmojijghode)** · **[Website và hướng dẫn](https://minhhk68.github.io/GPA_FPTuniversity/)** · **[Báo lỗi](https://github.com/MinhHK68/GPA_FPTuniversity/issues)**
 
----
+## Tính năng
 
-## 🌟 Giới thiệu tổng quan
-**GPA FPT University** là một tiện ích mở rộng (Chrome Extension) trực quan và an toàn được thiết kế riêng cho sinh viên Đại học FPT. 
+- Đọc dữ liệu bảng điểm FAP, giảm nhập từng môn thủ công.
+- Xem GPA theo hệ 10 hoặc hệ 4, tất cả học kỳ hoặc một học kỳ.
+- Thống kê môn học, tín chỉ và kết quả theo học kỳ.
+- Tham khảo gợi ý môn cải thiện và thử điểm dự kiến trong mục Giả lập.
+- Xuất báo cáo CSV hoặc JSON để lưu lại.
 
-Tiện ích này tự động hóa việc tính toán điểm trung bình tích lũy (GPA) song song trên cả hai hệ điểm **Thang điểm 10** và **Thang điểm 4**, đồng thời cung cấp bảng số liệu học tập chi tiết qua từng kỳ ngay trên giao diện FAP (FPT Academic Portal) mà không cần nhập liệu thủ công.
+Kết quả hỗ trợ tham khảo. Hãy đối chiếu bảng điểm chính thức và quy định áp dụng cho khóa/chương trình, nhất là môn điều kiện, học lại, cải thiện và quy đổi hệ 4. Đây là tiện ích độc lập, không phải sản phẩm chính thức của Đại học FPT.
 
----
+## Cài đặt trên Microsoft Edge
 
-## ✨ Các tính năng nổi bật
-* **Đồng bộ hóa hệ điểm song song:** Tự động tính toán và hiển thị điểm GPA chính xác theo cả **Thang điểm 10** và **Thang điểm 4**.
-* **Tự động phân tích bảng điểm:** Tự động nhận diện bảng điểm cá nhân trên trang FAP, loại bỏ các môn điều kiện (thể chất, quốc phòng, tiếng Anh chuẩn bị) để tính toán đúng điểm tích lũy thực tế.
-* **Gợi ý môn cần cải thiện:** Đưa ra đề xuất chi tiết các môn học bạn nên học cải thiện điểm số để đạt được hiệu quả tăng điểm GPA tích lũy cao nhất với mức nỗ lực tối ưu.
-* **Tính toán mục tiêu học tập thông minh:** Tự động tính toán và hiển thị chính xác mức điểm GPA cần đạt thêm để nâng học lực hiện tại lên các mức **Khá, Giỏi, hoặc Xuất sắc**.
-* **Bảng số liệu trực quan:** Thống kê chi tiết số lượng môn học đã đạt, tổng số tín chỉ tích lũy toàn khóa và phân tích học tập theo từng học kỳ.
-* **Bảo mật tuyệt đối:** Hoạt động hoàn toàn trên trình duyệt của người dùng, cam kết không thu thập dữ liệu học tập hay thông tin cá nhân.
+1. Mở [GPA FPT University trên Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/lmcfppbohifkbeahgjcmkgmojijghode) bằng Microsoft Edge.
+2. Chọn **Get / Nhận**, đọc quyền truy cập và hoàn tất cài đặt.
+3. Ghim biểu tượng tiện ích nếu muốn truy cập nhanh.
+4. Đăng nhập [FAP](https://fap.fpt.edu.vn/) và mở **Student Transcript / Transcript**.
+5. Mở tiện ích. Nếu chưa có dữ liệu, dùng nút đi tới bảng điểm và làm mới dữ liệu.
 
----
+## Hướng dẫn sử dụng và tính GPA
 
-## 🛠️ Hướng dẫn cài đặt tiện ích
+- [Cách cài extension GPA FPT và xem điểm trên FAP](https://minhhk68.github.io/GPA_FPTuniversity/huong-dan-cai-dat.html)
+- [Cách tính GPA FPT theo tín chỉ: công thức, ví dụ và công cụ minh họa](https://minhhk68.github.io/GPA_FPTuniversity/cach-tinh-gpa-fpt.html)
+- [Cải thiện GPA và tính điểm mục tiêu](https://minhhk68.github.io/GPA_FPTuniversity/cai-thien-gpa.html)
+- [Không hiện GPA trên FAP: cách kiểm tra](https://minhhk68.github.io/GPA_FPTuniversity/khac-phuc-loi.html)
 
-Bạn có thể lựa chọn một trong hai phương thức cài đặt dưới đây:
+## Cài thủ công cho trình duyệt Chromium
 
-### Cách 1: Cài đặt trực tiếp từ Cửa hàng Edge Add-ons (Khuyên dùng - Nhanh nhất)
-1. Mở trình duyệt Microsoft Edge.
-2. Truy cập vào trang cửa hàng của tiện ích (sau khi được Microsoft phê duyệt): **[GPA FPT University trên Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/lmcfppbohifkbeahgjcmkgmojijghode)**.
-3. Nhấp vào nút **Get (Nhận)** để cài đặt tự động. Tiện ích sẽ tự động tích hợp vào trình duyệt của bạn một cách nhanh chóng và an toàn.
+Dành cho người hiểu chế độ nhà phát triển; bản này không tự cập nhật từ Edge Add-ons.
 
----
+1. Chọn **Code → Download ZIP**, giải nén mã nguồn từ repository này.
+2. Mở `chrome://extensions/` trên Chrome/Brave hoặc `edge://extensions/` trên Edge.
+3. Bật **Developer mode**, chọn **Load unpacked**.
+4. Chọn thư mục có `manifest.json`, sau đó mở bảng điểm FAP.
 
-### Cách 2: Cài đặt thủ công bằng Chế độ nhà phát triển (Developer Mode)
+## Quyền truy cập và hỗ trợ
 
-Nếu bạn muốn chạy thử nghiệm trực tiếp mã nguồn cục bộ dưới máy:
+Manifest khai báo `activeTab`, `storage`, `scripting` và host `https://fap.fpt.edu.vn/*`. Xem công bố dữ liệu và chính sách được liên kết trong mục Privacy của [bản phát hành trên Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/lmcfppbohifkbeahgjcmkgmojijghode) trước khi sử dụng.
 
-#### Bước 1: Tải mã nguồn về máy
-1. Nhấn vào nút xanh **Code** ở góc trên bên phải của trang GitHub này.
-2. Chọn **Download ZIP**.
-3. Giải nén tệp tin vừa tải về vào một thư mục cố định trên máy tính (ví dụ: `C:\GPA_FPTuniversity`).
+Khi [báo lỗi](https://github.com/MinhHK68/GPA_FPTuniversity/issues), ghi phiên bản tiện ích, trình duyệt và thao tác gây lỗi. Che thông tin cá nhân trong ảnh; không đăng mật khẩu, cookie, token, mã sinh viên hoặc toàn bộ bảng điểm vào issue công khai.
 
-#### Bước 2: Kích hoạt Developer Mode trên trình duyệt
-1. Mở trình duyệt Chrome (hoặc trình duyệt nhân Chromium như Edge, Cốc Cốc, Brave).
-2. Truy cập trang quản lý tiện ích:
-   * **Chrome:** `chrome://extensions/`
-   * **Edge:** `edge://extensions/`
-3. Bật **Chế độ dành cho nhà phát triển (Developer mode)** ở góc trên bên phải.
+## Phát hành website miễn phí
 
-#### Bước 3: Nạp tiện ích vào trình duyệt
-1. Nhấp vào nút **Tải tiện ích đã giải nén (Load unpacked)** ở góc trên bên trái.
-2. Chọn thư mục chứa dự án mà bạn đã giải nén ở **Bước 1** (thư mục có chứa tệp `manifest.json`).
-3. Tiện ích sẽ ngay lập tức sẵn sàng để sử dụng!
-
----
-
-## 📖 Hướng dẫn sử dụng
-1. Đăng nhập vào trang **FAP** của Đại học FPT (`fap.fpt.edu.vn`).
-2. Mở trang **Student Transcript** (Xem bảng điểm cá nhân) của bạn.
-3. Nhấp vào biểu tượng tiện ích **GPA FPT University** đã ghim trên thanh công cụ của trình duyệt. Tiện ích sẽ hiển thị đầy đủ bảng phân tích điểm và các công cụ gợi ý thông minh ngay lập tức!
-
----
+Website tĩnh nằm trong `docs/`, dùng GitHub Pages với nguồn `main` → `/docs`. Không cần cài gói phụ thuộc hoặc mua tên miền. Sitemap: `https://minhhk68.github.io/GPA_FPTuniversity/sitemap.xml`.
 
 ## 🛡️ Chính sách bảo quyền (License)
 
